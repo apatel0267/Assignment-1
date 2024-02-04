@@ -1,0 +1,80 @@
+/*Arya Miteshbhai Patel & Student ID-8980267*/
+body{
+    width: 80%;
+    max-width:80%;
+    text-align: center;
+    font-size:large;
+    font-family: serif;
+    padding: 20px;
+}
+
+header{
+    border: solid;
+    border-color: rgb(194, 114, 145);
+    border-radius: 10px;
+    padding: 20px;
+    margin:10px;
+}
+footer{
+    border: solid;
+    border-color: rgb(194, 114, 145);
+    border-radius: 10px;
+    padding: 5px;
+    margin:5px;
+}
+h1{
+    color: rgb(133, 11, 48);
+    font-variant: small-caps;
+}
+h2{
+    color:rgb(180, 27, 78);
+    font-variant: small-caps;
+}
+footer p{
+    font-size: 0.9em;
+    color: rgb(16, 107, 132);
+}
+
+main {
+    width: 66.66%; 
+    float: left; 
+    margin:auto;
+    padding:auto;
+}
+aside {
+    width: 33.33%; 
+    float: right;
+    margin: auto;
+    padding:auto;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.maining img{
+    border: solid;
+    border-width: 100%;
+}
+figcaption{
+    font-style: bold;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: x-large;
+}
+
+li{
+    list-style: none;
+    line-height: 0.9;
+}
+a{
+    text-decoration-line: none;
+    color:aqua;
+}
+a :hover{
+    color: blue;
+}
